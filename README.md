@@ -20,3 +20,6 @@ SELECT
 FROM
  `bigquery-public-data.samples.natality`
 ORDER BY weight_pounds DESC LIMIT 10;
+
+
+spls/gsp072/baby-names/yob2014.txt
