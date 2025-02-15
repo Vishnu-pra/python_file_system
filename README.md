@@ -26,3 +26,13 @@ spls/gsp072/baby-names/yob2014.txt
 
 
 name:string,gender:string,count:integer
+
+
+#standardSQL
+SELECT
+ name, count
+FROM
+ `babynames.names_2014`
+WHERE
+ gender = 'M'
+ORDER BY count DESC LIMIT 5;
