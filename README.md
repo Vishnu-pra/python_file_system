@@ -11,3 +11,12 @@ Ax0Q3xH0qvqE
 
 
 qwiklabs-gcp-01-ffee2844997a
+
+
+
+#standardSQL
+SELECT
+ weight_pounds, state, year, gestation_weeks
+FROM
+ `bigquery-public-data.samples.natality`
+ORDER BY weight_pounds DESC LIMIT 10;
